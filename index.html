@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IsoLog - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #fff5f0 0%, #ffffff 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #FF8C42 0%, #FF6B35 100%);
+            border-radius: 22px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+        }
+        .logo-icon {
+            font-size: 50px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #FF6B35;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        .card h2 {
+            color: #FF6B35;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        .card p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .contact-info a {
+            color: #FF6B35;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .feature {
+            background: #fff5f0;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+        .feature-title {
+            font-weight: 600;
+            color: #333;
+        }
+        .links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .links a {
+            color: #FF6B35;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 1px solid #FF6B35;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        .links a:hover {
+            background: #FF6B35;
+            color: white;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #999;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <span class="logo-icon">💊</span>
+            </div>
+            <h1>IsoLog</h1>
+            <p class="tagline">Isotretinoin Medication Tracker</p>
+        </div>
+
+        <div class="card">
+            <h2>About IsoLog</h2>
+            <p>IsoLog is a medication tracking app designed specifically for Isotretinoin users. Track your daily medication, monitor skin condition changes, and maintain a healthy treatment routine.</p>
+
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">✅</div>
+                    <div class="feature-title">Daily Check-in</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📅</div>
+                    <div class="feature-title">Calendar View</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🧴</div>
+                    <div class="feature-title">Skin Tracking</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔔</div>
+                    <div class="feature-title">Reminders</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Support</h2>
+            <p>If you have any questions, issues, or feedback about IsoLog, please don't hesitate to contact us.</p>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:hyson.dev@gmail.com">hyson.dev@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>FAQ</h2>
+            <p><strong>Q: Is my data stored securely?</strong></p>
+            <p>A: Yes, all your data is stored locally on your device. We do not collect or transmit any personal health information.</p>
+            <br>
+            <p><strong>Q: Can I use this app with other medications?</strong></p>
+            <p>A: While IsoLog is optimized for Isotretinoin treatment, you can use it to track any medication that follows a regular schedule.</p>
+        </div>
+
+        <div class="links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 IsoLog. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
